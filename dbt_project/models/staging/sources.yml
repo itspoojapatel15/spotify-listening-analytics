@@ -1,0 +1,10 @@
+version: 2
+sources:
+  - name: raw_spotify
+    schema: RAW_SPOTIFY
+    tables:
+      - name: LISTENING_HISTORY
+      - name: TRACKS
+      - name: AUDIO_FEATURES
+      - name: PLAYLISTS
+      - name: ARTISTS
