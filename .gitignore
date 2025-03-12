@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.env
+venv/
+.venv/
+dbt_project/target/
+dbt_project/dbt_packages/
+dbt_project/logs/
+.spotify_token.json
+.DS_Store
+Thumbs.db
