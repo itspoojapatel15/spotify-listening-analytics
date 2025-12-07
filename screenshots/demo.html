@@ -1,0 +1,75 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>Spotify Analytics — Streamlit Dashboard</title></head><body style="margin:0;padding:0;">
+        <div style="font-family:'Segoe UI',system-ui,sans-serif;max-width:1200px;margin:0 auto;padding:30px;background:#0d1117;color:#c9d1d9;min-height:100vh;">
+          <h1 style="color:#1DB954;border-bottom:1px solid #30363d;padding-bottom:16px;">🎵 Spotify Listening Analytics Dashboard</h1>
+
+          <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:16px;margin:24px 0;">
+            <div style="background:#161b22;border:1px solid #30363d;border-radius:8px;padding:16px;text-align:center;">
+              <div style="color:#8b949e;font-size:12px;">Total Tracks</div>
+              <div style="color:#1DB954;font-size:28px;font-weight:700;">8,342</div>
+            </div>
+            <div style="background:#161b22;border:1px solid #30363d;border-radius:8px;padding:16px;text-align:center;">
+              <div style="color:#8b949e;font-size:12px;">Unique Artists</div>
+              <div style="color:#1DB954;font-size:28px;font-weight:700;">1,247</div>
+            </div>
+            <div style="background:#161b22;border:1px solid #30363d;border-radius:8px;padding:16px;text-align:center;">
+              <div style="color:#8b949e;font-size:12px;">Listening Hours</div>
+              <div style="color:#1DB954;font-size:28px;font-weight:700;">482</div>
+            </div>
+            <div style="background:#161b22;border:1px solid #30363d;border-radius:8px;padding:16px;text-align:center;">
+              <div style="color:#8b949e;font-size:12px;">Sessions</div>
+              <div style="color:#1DB954;font-size:28px;font-weight:700;">1,156</div>
+            </div>
+          </div>
+
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;margin:20px 0;">
+            <div style="background:#161b22;border:1px solid #30363d;border-radius:8px;padding:20px;">
+              <h3 style="color:#f0f6fc;margin-top:0;">🎤 Top Artists (30 days)</h3>
+              <div style="font-size:14px;line-height:2.2;">
+                <div>1. <span style="color:#1DB954;">Taylor Swift</span> — 142 plays <div style="display:inline-block;background:#1DB954;height:8px;width:200px;border-radius:4px;"></div></div>
+                <div>2. <span style="color:#1DB954;">The Weeknd</span> — 98 plays <div style="display:inline-block;background:#1DB954;height:8px;width:138px;border-radius:4px;"></div></div>
+                <div>3. <span style="color:#1DB954;">Drake</span> — 87 plays <div style="display:inline-block;background:#1DB954;height:8px;width:122px;border-radius:4px;"></div></div>
+                <div>4. <span style="color:#1DB954;">Dua Lipa</span> — 76 plays <div style="display:inline-block;background:#1DB954;height:8px;width:107px;border-radius:4px;"></div></div>
+                <div>5. <span style="color:#1DB954;">Bad Bunny</span> — 61 plays <div style="display:inline-block;background:#1DB954;height:8px;width:86px;border-radius:4px;"></div></div>
+              </div>
+            </div>
+            <div style="background:#161b22;border:1px solid #30363d;border-radius:8px;padding:20px;">
+              <h3 style="color:#f0f6fc;margin-top:0;">😊 Mood Heatmap</h3>
+              <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;font-size:14px;">
+                <div style="background:#1a4731;border-radius:8px;padding:14px;text-align:center;">
+                  <div style="font-size:24px;">😊</div>
+                  <div style="color:#3fb950;font-weight:700;">Happy — 38%</div>
+                  <div style="color:#8b949e;font-size:12px;">High valence + energy</div>
+                </div>
+                <div style="background:#2d1b4e;border-radius:8px;padding:14px;text-align:center;">
+                  <div style="font-size:24px;">😌</div>
+                  <div style="color:#d2a8ff;font-weight:700;">Peaceful — 24%</div>
+                  <div style="color:#8b949e;font-size:12px;">High valence, low energy</div>
+                </div>
+                <div style="background:#4a1d1d;border-radius:8px;padding:14px;text-align:center;">
+                  <div style="font-size:24px;">😠</div>
+                  <div style="color:#f85149;font-weight:700;">Angry — 15%</div>
+                  <div style="color:#8b949e;font-size:12px;">Low valence, high energy</div>
+                </div>
+                <div style="background:#1c2541;border-radius:8px;padding:14px;text-align:center;">
+                  <div style="font-size:24px;">😢</div>
+                  <div style="color:#79c0ff;font-weight:700;">Sad — 12%</div>
+                  <div style="color:#8b949e;font-size:12px;">Low valence + energy</div>
+                </div>
+              </div>
+              <div style="color:#8b949e;font-size:12px;margin-top:8px;text-align:center;">Neutral: 11%</div>
+            </div>
+          </div>
+
+          <div style="background:#161b22;border:1px solid #30363d;border-radius:8px;padding:20px;margin:20px 0;">
+            <h3 style="color:#f0f6fc;margin-top:0;">🎧 Audio Feature Radar (Avg)</h3>
+            <div style="display:flex;justify-content:space-around;font-size:13px;text-align:center;">
+              <div><div style="color:#1DB954;font-size:24px;font-weight:700;">0.62</div><div style="color:#8b949e;">Energy</div></div>
+              <div><div style="color:#1DB954;font-size:24px;font-weight:700;">0.58</div><div style="color:#8b949e;">Danceability</div></div>
+              <div><div style="color:#1DB954;font-size:24px;font-weight:700;">0.54</div><div style="color:#8b949e;">Valence</div></div>
+              <div><div style="color:#1DB954;font-size:24px;font-weight:700;">0.11</div><div style="color:#8b949e;">Acousticness</div></div>
+              <div><div style="color:#1DB954;font-size:24px;font-weight:700;">0.07</div><div style="color:#8b949e;">Speechiness</div></div>
+              <div><div style="color:#1DB954;font-size:24px;font-weight:700;">0.03</div><div style="color:#8b949e;">Instrumentalness</div></div>
+            </div>
+          </div>
+        </div>
+        </body></html>
